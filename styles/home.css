@@ -1,0 +1,39 @@
+/* -------------------------------- HOME  */
+.home img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 20px 0;
+}
+
+.camp-details {
+  margin-top: 30px;
+}
+
+.home h3 {
+  color: var(--dark-olive);
+}
+
+.camp-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.camp-details li {
+  margin: 5px 0;
+}
+
+.camp-details li strong {
+  color: var(--rich-brown);
+}
+
+.home-button {
+  margin-top: 30px;
+  justify-content: center;
+}
