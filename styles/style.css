@@ -184,6 +184,16 @@ nav ul li a:hover {
   color: var(--cream);
 }
 
+.button.disabled {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.button.disabled:hover {
+  background-color: var(--warm-yellow);
+  color: var(--forest-green);
+}
+
 /* -------------------------------- ABOUT US SPECIFIC */
 .about-us-gallery {
   display: grid;
